@@ -1,0 +1,56 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  background-image: url('images/popup-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.logo-container {
+  margin-top: 20px;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.status {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: limegreen;
+}
+
+#report-btn {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#report-btn:hover {
+  background-color: #0056b3;
+}
+
